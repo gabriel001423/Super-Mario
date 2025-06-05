@@ -36,5 +36,18 @@ const loop = setInterval(() => {
 
 }, 10);
 
+function criarPlacar() {
+    const placar = {
+        pontuaçao: 0,
+        desenha() {
+            contexto.font = '50px serif';
+            contexto.fillText('ooo ${placar.pontuacao}',50, 90);
+        },
+        atualiza() {
+        }
+    }
+    return placar;
+}
+
 
 document.addEventListener("keydown", jump);
