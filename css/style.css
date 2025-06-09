@@ -38,6 +38,7 @@
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+    top: 110px;
 }
 
 .game-over-screen {
